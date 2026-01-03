@@ -3,6 +3,7 @@ import "./App.css";
 import { Button, TextField, Card } from "@mui/material";
 import Navbar from "./component/Navbar";
 import Cards from "./component/Card"; // Rename to Cards or use alias
+import Form from "./component/Form";
 
 function App() {
   const navItems = [
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Navbar navItems={navItems} />
       <Cards />
+      <Form />
       {/* <Card>
         <TextField label="Name" variant="outlined" />
         <Button variant="contained" color="primary">
